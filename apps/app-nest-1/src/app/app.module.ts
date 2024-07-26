@@ -5,6 +5,7 @@ import type { Response } from 'express';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { HealthcheckController } from './healthcheck.controller';
 
 @Module({
   imports: [
@@ -26,7 +27,7 @@ import { AppService } from './app.service';
       },
     }),
   ],
-  controllers: [AppController],
+  controllers: [AppController, HealthcheckController],
   providers: [AppService],
 })
 export class AppModule {}
