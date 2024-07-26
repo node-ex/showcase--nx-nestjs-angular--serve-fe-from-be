@@ -2,7 +2,7 @@
 
 ## Showcase
 
-This is a showcase project that demonstrates how to serve an Angular frontend from a NestJS backend using `ServeStaticModule`.
+This is a showcase project that demonstrates how to serve an Angular frontend from a NestJS backend using `ServeStaticModule`. It also showcases how to Dockerize such a setup.
 
 Steps:
 
@@ -12,6 +12,10 @@ Steps:
 4. Go to `http://localhost:3000` to see FE served from BE
 
 Implementation: See a couple of latest commits.
+
+### Dockerization
+
+You need to understand the basic Docker concepts. Use scripts in `./docker/app` folder to build and run the Docker image.
 
 ## Local development
 
