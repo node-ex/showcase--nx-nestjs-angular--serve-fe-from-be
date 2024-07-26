@@ -1,4 +1,17 @@
-# nestjs-angular-nx--template--basic
+# showcase--nx-nestjs-angular--serve-fe-from-be
+
+## Showcase
+
+This is a showcase project that demonstrates how to serve an Angular frontend from a NestJS backend using `ServeStaticModule`.
+
+Steps:
+
+1. Setup the repository (see below)
+2. Build the Angular app
+3. Start NestJS development server or build and run it (using `node`, not `nx preview`)
+4. Go to `http://localhost:3000` to see FE served from BE
+
+Implementation: See a couple of latest commits.
 
 ## Local development
 
