@@ -15,7 +15,7 @@ Implementation: See a couple of latest commits.
 
 ### Dockerization
 
-You need to understand the basic Docker concepts. Use scripts in `./docker/app` folder to build and run the Docker image.
+You need to understand the basic Docker concepts. Use scripts in `./scripts/docker/app` folder to build and run the Docker image.
 
 ## Local development
 
